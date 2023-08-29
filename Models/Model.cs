@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 
 namespace LuxRentals.Models;
-public class Vehicle
+public class Model
 {
     [Key]
     public int Id { get; set; }

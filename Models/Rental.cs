@@ -13,7 +13,7 @@ public class Rental
 
     [Required]
     public DateTime DateFrom { get; set; }
-    [Required]
+
     public DateTime DateTo { get; set; }
     public int StatusId {get; set;}
     public Status Status {get; set;}
