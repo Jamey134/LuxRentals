@@ -23,5 +23,5 @@ public class Rental
     public User User {get; set;}
 
     // Upload to mySQL
-    public IEnumerable<Vehicle> Vehicles { get; set; }
+    // public IEnumerable<Vehicle> Vehicles { get; set; }
 }
